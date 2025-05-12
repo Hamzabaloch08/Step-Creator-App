@@ -26,7 +26,8 @@ A simple and responsive multi-step progress indicator built with **React** and *
 - Dynamic step highlighting as a user navigates  
 - Smooth UI with transitions  
 - Clean and modern layout  
-- Emoji-based step descriptions for clarity
+- Emoji-based step descriptions for clarity  
+- Modular `Circle` component to display and style step indicators
 
 ---
 
