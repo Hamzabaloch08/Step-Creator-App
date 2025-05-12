@@ -36,14 +36,14 @@ function App() {
           <button
             onClick={() => setStep(step - 1)}
             disabled={step === 0}
-            className="bg-indigo-600 text-white rounded-3xl py-3 px-6 disabled:opacity-50"
+            className="cursor-pointer bg-indigo-600 text-white rounded-3xl py-3 px-6 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Previous
           </button>
           <button
             onClick={() => setStep(step + 1)}
             disabled={step === steps.length - 1}
-            className="bg-indigo-600 text-white rounded-3xl py-3 px-6 disabled:opacity-50"
+            className="cursor-pointer bg-indigo-600 text-white rounded-3xl py-3 px-6 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
           </button>
